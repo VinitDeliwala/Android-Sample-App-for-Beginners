@@ -1,0 +1,18 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=EC:69:FB:C4:99:6A:93:E6:28:F3:B6:B5:BD:9B:C7:F5:8A:56:82:F7%3Bcom.example.vinit.maplearn
+
+    You can also add your credentials to an existing key, using this line:
+    EC:69:FB:C4:99:6A:93:E6:28:F3:B6:B5:BD:9B:C7:F5:8A:56:82:F7;com.example.vinit.maplearn
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyBE4CYr29C1J2HB_XzHgNo0q0qCgIhNhSI
+    </string>
+</resources>

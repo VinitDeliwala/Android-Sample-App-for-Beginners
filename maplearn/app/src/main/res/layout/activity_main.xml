@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="  Create"
+            android:id="@+id/button1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="#F4B8A4"
+            android:textColor="#ffffffff"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Saved"
+            android:id="@+id/Saved"
+            android:layout_weight="1"
+            android:background="#D56E83"
+            android:textColor="#ffffffff"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Received"
+            android:id="@+id/Received"
+            android:background="#8E6E85"
+            android:textColor="#ffffffff"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:id="@+id/About"
+            android:background="#355C7D"
+            android:textColor="#ffffffff"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</RelativeLayout>
